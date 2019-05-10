@@ -7,10 +7,10 @@ function Character(props) {
                 <strong>Name: </strong> {props.character.name}
             </p>
             <p>
-                <strong>Affiliation: </strong> {props.character.affiliation}
+                <strong>Gender: </strong> {props.character.gender}
             </p>
             <p>
-                <strong>Species: </strong> {props.character.species}
+                <strong>Height: </strong> {props.character.height}
             </p>
         </div>
     );
