@@ -52,7 +52,6 @@ class App extends Component {
           {this.state.starwarsChars.map(character => (
             <Character character={character} />
           ))}
-
         </div>
       </div>
     );
