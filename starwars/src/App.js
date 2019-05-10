@@ -27,22 +27,22 @@ class App extends Component {
     };
   }
 
-  componentDidMount() {
-    this.getCharacters('https://swapi.co/api/people/');
-  }
+  // componentDidMount() {
+  //   this.getCharacters('https://swapi.co/api/people/');
+  // }
 
-  getCharacters = URL => {
-    fetch(URL)
-      .then(res => {
-        return res.json();
-      })
-      .then(data => {
-        this.setState({ starwarsChars: data.results });
-      })
-      .catch(err => {
-        throw new Error(err);
-      });
-  };
+  // getCharacters = URL => {
+  //   fetch(URL)
+  //     .then(res => {
+  //       return res.json();
+  //     })
+  //     .then(data => {
+  //       this.setState({ starwarsChars: data.results });
+  //     })
+  //     .catch(err => {
+  //       throw new Error(err);
+  //     });
+  // };
 
   render() {
     return (
